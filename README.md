@@ -2,6 +2,10 @@
 
 This is the starter template for Workflows, a durable execution engine built on top of Cloudflare Workers.
 
+Thiw workflow updates the customMetadata of all the Images stored in r2 bucket by uinsg Image classification Model ResNet50
+
+![Screenshot R2.]https://r2.zxc.co.in/git_readme/image.png
+
 ```
 Step 1: Fetch images from R2 with default prefix 'ai-generated'
 Step 2 & 3: Process each image through AI and update metadata
