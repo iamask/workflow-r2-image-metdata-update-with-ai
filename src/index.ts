@@ -182,31 +182,3 @@ export default {
 		});
 	},
 };
-// </docs-tag name="workflows-fetch-handler">
-// </docs-tag name="full-workflow-example">
-/*
-
-Image 1: ai-generated/1746948849155-zjng9a.jpg
-  ↓
-Step 1: classify-image-ai-generated/1746948849155-zjng9a.jpg
-  - Downloads image
-  - Runs AI model
-  - Gets classification
-  ↓
-Step 2: update-metadata-ai-generated/1746948849155-zjng9a.jpg
-  - Updates R2 with new metadata
-  - Cleans up image data from memory
-  ↓
-Image 2: ai-generated/1746948981648-yvh6cv.jpg
-  ↓
-Step 1: classify-image-ai-generated/1746948981648-yvh6cv.jpg
-  - Downloads image
-  - Runs AI model
-  - Gets classification
-  ↓
-Step 2: update-metadata-ai-generated/1746948981648-yvh6cv.jpg
-  - Updates R2 with new metadata
-  - Cleans up image data
-  ↓
-And so on for each image...
-*/
