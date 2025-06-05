@@ -4,7 +4,7 @@ This is the starter template for Workflows, a durable execution engine built on 
 
 This workflow updates the customMetadata of all the Images stored in r2 bucket by using Image classification Model ResNet50
 
-[Screenshot R2.](https://r2.zxc.co.in/git_readme/r2image_workflow.png)
+![Screenshot R2.](https://r2.zxc.co.in/git_readme/r2image_workflow.png)
 
 ```
 Step 1: Fetch images from R2 with default prefix 'ai-generated'
@@ -38,7 +38,7 @@ And so on for each image...
 
 ```
 
-[Workflow](https://r2.zxc.co.in/git_readme/workflow.png)
+![Workflow](https://r2.zxc.co.in/git_readme/workflow.png)
 
 The [Workflows documentation](https://developers.cloudflare.com/workflows/) contains examples, the API reference, and architecture guidance.
 
