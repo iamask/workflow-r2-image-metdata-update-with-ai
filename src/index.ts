@@ -120,7 +120,7 @@ export class MyWorkflow extends WorkflowEntrypoint<Env, Params> {
 					}
 				);
 
-				// Clean up image data and store result
+				// Clean up image data and store result in processedResults array
 				const { imageData, ...cleanResult } = result;
 				processedResults.push(cleanResult);
 			} catch (error: any) {
