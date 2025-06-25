@@ -1,8 +1,8 @@
 # Cloudflare Workflows
 
-This is the starter template for Workflows, a durable execution engine built on top of Cloudflare Workers.
+Workflows is a durable execution engine built on top of Cloudflare Workers with built-in retries and stateful progress tracking.
 
-This workflow updates the customMetadata of all the Images stored in r2 bucket by using Image classification Model ResNet50
+This workflow updates the customMetadata of all the Images stored in r2 bucket by using Image classification Model ResNet50 via Workers AI
 
 ![Screenshot R2.](https://r2.zxc.co.in/git_readme/r2image_workflow.png)
 
